@@ -1,0 +1,36 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.2283973898697061 0.20251384754683743 0.9522724262796239 1.7391915417512964
+  position 0.46714579389003813 -0.1414672151856851 0.19671207844926147
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+}
+E-puck {
+  hidden position_0_0 -3.0598732634289084e-08
+  hidden position_0_1 -3.0598749188066194e-08
+  hidden rotation_1 0 -1 0 2.9802322387695313e-08
+  hidden rotation_2 0 -1 0 2.9802322387695313e-08
+  translation 0.4355817381284032 0.18485102766150732 -6.396199577472263e-05
+  rotation 4.324770201406709e-08 -9.391095213969749e-08 0.9999999999999946 0.8026297970197803
+  controller "my_kalman_filter"
+  battery [
+    0
+  ]
+  groundSensorsSlot [
+    DistanceSensor {
+    }
+  ]
+}
