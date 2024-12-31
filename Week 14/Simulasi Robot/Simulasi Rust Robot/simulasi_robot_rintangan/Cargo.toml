@@ -1,0 +1,6 @@
+[package]
+name = "simulasi_robot_rintangan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]

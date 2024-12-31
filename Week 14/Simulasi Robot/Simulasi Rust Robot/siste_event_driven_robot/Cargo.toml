@@ -1,0 +1,6 @@
+[package]
+name = "siste_event_driven_robot"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
