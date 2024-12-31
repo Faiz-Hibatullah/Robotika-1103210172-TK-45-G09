@@ -1,0 +1,1 @@
+D:\Tugas\SEMESTER\ 7\ROBOTIKA\Rust\Rust\ Robot\perencanaan_jalur_sederhana\target\debug\perencanaan_jalur_sederhana.exe: D:\Tugas\SEMESTER\ 7\ROBOTIKA\Rust\Rust\ Robot\perencanaan_jalur_sederhana\src\main.rs
